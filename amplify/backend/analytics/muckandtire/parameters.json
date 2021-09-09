@@ -1,0 +1,21 @@
+{
+    "appName": "muckandtire",
+    "roleName": "pinpointLambdaRole08a77e96",
+    "cloudformationPolicyName": "cloudformationPolicy08a77e96",
+    "cloudWatchPolicyName": "cloudWatchPolicy08a77e96",
+    "pinpointPolicyName": "pinpointPolicy08a77e96",
+    "authPolicyName": "pinpoint_amplify_08a77e96",
+    "unauthPolicyName": "pinpoint_amplify_08a77e96",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

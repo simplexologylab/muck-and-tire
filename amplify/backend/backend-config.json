@@ -1,0 +1,15 @@
+{
+  "auth": {
+    "cognitodf2e70c9": {
+      "service": "Cognito",
+      "serviceType": "managed",
+      "providerPlugin": "awscloudformation"
+    }
+  },
+  "analytics": {
+    "muckandtire": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
