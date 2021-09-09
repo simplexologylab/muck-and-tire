@@ -5,3 +5,7 @@
  */
 
 // You can delete this file if you're not using it
+import Amplify, { Analytics } from 'aws-amplify';
+import awsconfig from './src/aws-exports';
+Amplify.configure(awsconfig);
+Analytics.record();
